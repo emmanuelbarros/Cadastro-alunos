@@ -29,7 +29,7 @@ void linha() {
 // procedimento que imprime um cabeçalho
 void cabec() {
 	system("cls");
-	printf("Centro Universitário dos Guararapes - UNIFG\n");
+	printf("Centro Universitário \n");
 	linha();
 }
 
