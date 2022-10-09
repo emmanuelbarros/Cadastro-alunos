@@ -249,11 +249,11 @@ void listagem() {
 	}
 	linha();
 	printf("\n\n\nDigite qualquer tecla para voltar ao menu...");
-	getch();
+	getchar();
 }
 
 int main(int argc, char *argv[]) {
-	setlocale(LC_ALL, "");
+	setlocale(LC_ALL, "Portuguese");
 	int op;
 	
 	// abre o arquivo
@@ -291,7 +291,7 @@ int main(int argc, char *argv[]) {
 			default:
 				printf("\n\n\nOpção inválida!");
 				printf("\n\nDigite qualquer tecla para continuar...");
-				getch();
+				getchar();
 				break;
 		}
 	} while (op != 0);
