@@ -253,6 +253,7 @@ void listagem() {
 		// verifica se o registro tem dados
 		if (aluno_aux.matricula != 0)
 			printf("%9d %-20s\t\t\t %5.1f\n", aluno_aux.matricula, aluno_aux.nome, aluno_aux.media);
+			conferir();
 			linha();
 		// lê mais um registro	
 		fread(&aluno_aux, sizeof(TAluno), 1, paluno);
