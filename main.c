@@ -228,6 +228,15 @@ void alterar() {
 		
 	} while (resp == 1);
 }
+// função para conferir média e aplicar se esta aprovado ou reprovado na lista
+void conferir(){
+	if(aluno_aux.media>=6.0){
+		printf("\n\t\t\t\tAprovado\n");
+	}
+	else{
+		printf("\n\t\t\t\tReprovado\n");
+	}
+}
 
 // função que lista todos os alunos do arquivo
 void listagem() {
